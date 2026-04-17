@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" id="wholePage">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Partner lab 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="partnerLab2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--Step 1: Create an HTML page that contains a user greeting (e.g. "Hello User!") 
+    inside an <h1> element and a brief message inside a <p> element-->
+        <h1>Hello <span id="updateUserGreeting"></span>!</h1>
+    </header>
+    <main>
+        <div id="message">
+            <p>Welcome to Partner Lab 2 !<br /><br /><span id="updateBriefMessage"></span></p>
+        </div>
+        <div>
+            <ol id="updateToDoList">
+            </ol>
+        </div>
+        <br />
+        <div class="form">
+            <table>
+                <tr>
+                    <!--  1) A text box for the user to enter their name (to customize the greeting)-->
+                    <td><label for="name">Enter your name here: </label></td>
+                    <td><input type="text" id="name" name="name" maxlength="40"></td>
+                </tr>
+                <tr>
+                    <!--2) A text box for the user to enter the brief message to be displayed inside of the <p> element created in step 1-->
+                    <td><label for="briefMessage">Enter your message here: </label></td>
+                    <td><input type="text" id="briefMessage" name="briefMessage" maxlength="100"></td>
+                </tr>
+                <tr>
+                    <!-- 3) A drop down menu that allows the user to choose the background color of the page from several options-->
+                    <td><label for="color">Choose your background color here: </label></td>
+                    <td><select name="color" id="color">
+                            <option value="lightGreen">Light Green</option>
+                            <option value="lightCyan">Light Cyan</option>
+                            <option value="lightGray">Light Gray</option>
+                            <option value="white">White</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <!-- 4) A submit button that puts these changes into effect-->
+                    <td><label for="button">Submit your changes: </label></td>
+                    <td><input type="button" value="Click here" onclick="updateWebpage()" ;></td>
+                </tr>
+            </table>
+        </div>
+        <!--Add "To Do List" functionality that allows the user to add "To Do" items using an additional text box and button.  
+        Each "To Do" item should be stored as a list item inside of an ordered list-->
+        <div class="form">
+            <table>
+                <tr>
+                    <td><label for="toDoList">Enter your To Do Item here: </label></td>
+                    <td><input type="text" id="toDoList" name="toDoList" maxlength="80"></td>
+                </tr>
+                <tr>
+                    <td><label for="button">Add your task to the list: </label></td>
+                    <td><input type="button" value="Click here" onclick="addToDoItems()" ;></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>

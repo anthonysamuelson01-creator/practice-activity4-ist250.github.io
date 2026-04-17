@@ -1,0 +1,22 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Apple Chancery", cursive;
+}
+#indexFileId {
+  background-color: lightsalmon;
+  border-color: red;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 12px;
+  width: 700px;
+  padding-left: 5px;
+}
+#detailFileId {
+  background-color: lightsalmon;
+  border-color: red;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 12px;
+  width: 510px;
+  padding-left: 5px;
+}

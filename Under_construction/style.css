@@ -1,0 +1,50 @@
+* {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+
+    background-image: url("images/background image.avif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start+;
+    align-items: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 80px;
+    margin: 0;
+    color: yellow;
+    text-shadow: 5px 5px orangered;
+}
+
+h2 {
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 2px 2px brown;
+}
+
+h3 {
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-style: italic;
+}

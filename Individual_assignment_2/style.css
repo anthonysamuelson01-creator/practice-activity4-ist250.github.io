@@ -1,0 +1,175 @@
+* {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+header {
+    background: linear-gradient(to top right, orange, peru);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+    height: 150px;
+}
+
+h1 {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: indigo;
+    text-shadow: 5px 5px orangered;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav li {
+    display: inline;
+    padding: 12px;
+}
+
+nav li a {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+}
+
+.text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text>p {
+    font-style: normal;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+table {
+    border: 2px solid brown;
+    text-align: left;
+    height: 400px;
+    width: 680px;
+}
+
+tr>td {
+    border: 2px solid brown;
+    font-weight: bold;
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+tr:nth-child(odd) {
+    color: brown;
+    background: linear-gradient(to top, lightyellow, yellow);
+}
+
+tr:nth-child(even) {
+    background: linear-gradient(to bottom, yellow, orange);
+    color: darkmagenta;
+}
+
+tr>td:hover {
+    height: 40px;
+}
+
+th {
+    font-size: larger;
+    font-style: normal;
+    color: white;
+    background-color: sienna;
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+    font-style: italic;
+}
+
+footer {
+    position: relative;
+    background: linear-gradient(to bottom left, sienna, purple);
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+
+footer h3 {
+    font-weight: bold;
+}
+
+footer div {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.about {
+    margin-top: 40px;
+    margin-bottom: 400px;
+}
+
+.not-floating {
+    text-align: justify;
+    width: 900px;
+    padding-left: 250px;
+    line-height: 30px;
+}
+
+.floating {
+    float: right;
+    margin-right: 320px;
+    width: 380px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+#first-letter {
+    float: left;
+    width: 0.8em;
+    font-size: 450%;
+    font-family: "Chicle", serif;
+    line-height: 80%;
+    color: brown;
+}
+
+#music-store {
+    height: 250px;
+}
+
+#vinyl {
+    height: 240px;
+}

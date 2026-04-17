@@ -1,0 +1,24 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+header {
+    border-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    text-align: center;
+}
+
+.form {
+    margin: 30px;
+    padding-left: 30px;
+    width: 450px;
+}
+
+#message {
+    text-align: center;
+}
